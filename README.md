@@ -12,7 +12,7 @@ Step 4 – Run the command: php artisan key:generate
 
 Step 5 – Run the command: npm install
 
-Step 6 – Run the command: npm run vite build
+Step 6 – Run the command: npm run build
 
 Step 7 – Run the command: php artisan migrate
 
