@@ -4,7 +4,7 @@ Step 1 - After that, download the file. link env:
 https://drive.google.com/file/d/1CR_F9XYrfXigjLpUmoPA8Zb3KHWLiy4a/view?usp=sharing and
 add to the root of the project.
 
-Step 2 - Run Xamp: sudo ./xampp start
+Step 2 - Run Xamp: sudo ./xampp start (LINUX)
 
 Step 3 – Run the command: composer install in the project root
 
