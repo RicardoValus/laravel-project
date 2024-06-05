@@ -24,19 +24,22 @@ class ProfessorController extends Controller
         return redirect()->route('professores.index');
     }
 
-    public function edit(Professor $professor)
+    public function edit($id)
     {
+        $professor = Professor::find($id);
         return view('professores.edit', compact('professor'));
     }
 
-    public function update(Request $request, Professor $professor)
+    public function update(Request $request, $id)
     {
+        $professor = Professor::find($id);
         $professor->update($request->all());
-        return redirect()->route('professores.index');
+        return redirect()->route('professor.index');
     }
 
-    public function destroy(Professor $professor)
+    public function destroy($id)
     {
+        $professor = Professor::find($id);
         $professor->delete();
         return redirect()->route('professores.index');
     }
